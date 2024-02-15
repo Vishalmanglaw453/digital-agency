@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root {
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 13px;
+    --fs-xl: 20px;
+    --fs-2xl: 22px;
+    --fs-3xl: 20px;
+    --fs-4xl: 41px;
+}
+
+.text_12 {
+    font-size: var(--fs-sm);
+}
+
+.text_14 {
+    font-size: var(--fs-md);
+}
+
+.text_16 {
+    font-size: var(--fs-lg);
+}
+
+.text_20 {
+    font-size: var(--fs-xl);
+}
+
+.text_22 {
+    font-size: var(--fs-2xl);
+}
+
+.text_48 {
+    font-size: var(--fs-3xl);
+}
+
+.text_68 {
+    font-size: var(--fs-4xl);
+}
+.op_8{
+    opacity: 0.8;
+}
+
+.lh_16 {
+    line-height: 16px;
+}
+
+.lh_14 {
+    line-height: 14px;
+}
+
+.lh_20 {
+    line-height: 20.72px;
+}
+
+.lh_81 {
+    line-height: 81.6px;
+}
+
+.lh_34 {
+    line-height: 34px;
+}
+
+.lh_58 {
+    line-height: 58px;
+}
+
+.lh_30 {
+    line-height: 30px;
+}
+
+.lh_24 {
+    line-height: 24px;
+}
+
+.lh_23 {
+    line-height: 23.68px;
+}
+.fw_300 {
+    font-weight: 300;
+}
+.fw_400 {
+    font-weight: 400;
+}
+.fw_500 {
+    font-weight: 500;
+}
+
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_900 {
+    font-weight: 900;
+}
+
+.font_nunito {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.font_DM {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.lts_2 {
+    letter-spacing: 2%;
+}
+
+.lts-14 {
+    letter-spacing: 14.64%;
+}
+
+.lts-15 {
+    letter-spacing: 15%;
+}
+
+
+@media (min-width:576px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 14px;
+        --fs-lg: 13px;
+        --fs-xl: 20px;
+        --fs-2xl: 22px;
+        --fs-3xl: 48px;
+        --fs-4xl: 68px;
+    }
+}
+@media (min-width:1300px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 14px;
+        --fs-lg: 16px;
+        --fs-xl: 20px;
+        --fs-2xl: 22px;
+        --fs-3xl: 48px;
+        --fs-4xl: 68px;
+    }
+}
